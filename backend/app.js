@@ -66,4 +66,5 @@ app.use((req, res) => {
   res.status(404).json({ message: 'Not found' });
 });
 
+console.log('backend running on port 3000')
 app.listen(3000);
